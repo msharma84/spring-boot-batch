@@ -22,7 +22,7 @@ public class EmployeeItemProcessor implements ItemProcessor<Employee, Employee>{
 				employee.getGender()
 			);
 		
-		System.out.println("Employee - >>"+transformedEmployee);
+		//System.out.println("Employee - >>"+transformedEmployee);
 		return transformedEmployee;
 	}
 }

@@ -1,18 +1,19 @@
+/***
+ * 
+ *  Spring Boot Main class for running this batch application to saves the csv files into 
+ *  database tables and perform business concerns on them.
+ * 
+ * */
 package com.safari;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class SpringBootBatchApplication {
 
 	public static void main(String[] args) {
 		
-		
-		ApplicationContext ctx = SpringApplication.run(SpringBootBatchApplication.class, args);
-		
-		
+		SpringApplication.run(SpringBootBatchApplication.class, args);
 	}
-
 }
